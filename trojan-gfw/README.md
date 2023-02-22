@@ -52,7 +52,7 @@ server {
 	listen 80 ;
 	listen [::]:80 ;
 
-	server_name images.duti.tech;
+	server_name example.com;
     return 404; # managed by Certbot
 
 
