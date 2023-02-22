@@ -4,7 +4,7 @@
 ```nginx
 stream {
     map $ssl_preread_server_name $name {
-        duti.tech trojan;
+        example.com trojan;
         default nginx;
     }
     upstream trojan {
