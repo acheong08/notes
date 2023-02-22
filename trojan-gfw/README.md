@@ -90,7 +90,8 @@ server {
         "session_timeout": 600,
         "plain_http_response": "",
         "curves": "",
-        "dhparam": ""
+        "dhparam": "",
+	"sni": "example.com"
     },
     "tcp": {
         "prefer_ipv4": false,
@@ -151,3 +152,7 @@ server {
     }
 }
 ```
+
+# Tools/Scripts:
+- [easygfw](https://github.com/fluenceuwu/easygfw/blob/main/setup.sh)
+- [trojan](https://github.com/trojan-gfw/trojan) - Unmaintained - TODO: fork
