@@ -8,7 +8,7 @@
         "<password>"
     ],
     "ssl": {
-        "cert": "certificates/cert1.pem",
+        "cert": "certificates/fullchain1.pem",
         "key": "certificates/privkey1.pem",
 	"fallback_addr":"127.0.0.1",
         "fallback_port": 80
