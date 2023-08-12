@@ -1,0 +1,21 @@
+{
+    "run_type": "server",
+    "local_addr": "127.0.0.1",
+    "local_port": 1080,
+    "remote_addr": "127.0.0.1",
+    "remote_port": 80,
+    "password": [
+        "<password>"
+    ],
+    "ssl": {
+        "cert": "certificates/cert1.pem",
+        "key": "certificates/privkey1.pem",
+	"fallback_addr":"127.0.0.1",
+        "fallback_port": 80
+    },
+    "websocket": {
+    	"enabled": true,
+    	"path": "/<random>",
+    	"host": "<host>"
+    }
+}
