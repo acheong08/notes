@@ -55,7 +55,7 @@
                     "fingerprint": "chrome",
                     "serverName": "www.visitlondon.com", 
                     "publicKey": "<xray x25519>", 
-                    "shortId": "<secret>", 
+                    "shortId": "<hex16>", 
                     "spiderX": ""
                 }
             },
